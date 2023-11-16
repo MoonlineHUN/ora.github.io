@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.óra-container {
+    display: flex;
+    font-family: 'Digital-7', sans-serif;
+    font-size: 4em;
+    padding: 1em; 
+}
+
+.óra, .perc, .masodperc {
+    margin: 0 0.1em; 
+}
+
+.kettőspont {
+    padding: 0 0.2em;
+}
+
+.hét {
+    font-size: 1.5em;
+    margin-top: 1em; 
+    margin-right: 0.5em; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.hét span {
+    margin-bottom: 0.5em;
+    color: #999; 
+}
+
+.csutortok {
+    font-weight: 1000; 
+    color: red;
+    
+}
